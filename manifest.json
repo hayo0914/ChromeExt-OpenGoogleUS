@@ -1,26 +1,29 @@
 {
-  "name": "Open Google US/JP",
-  "description": "Press Ctrl+Q to open google.com\nPress Ctrl+Shift+Q to open google.co.jp",
-  "version": "1.0",
+  "name": "Open Google US",
+  "description": "Press Ctrl+Q to open google.com in current tab. Press Ctrl+Shift+Q to open in new tab",
+  "version": "1.0.1",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js"],
     "persistent": false
   },
+  "permissions": [
+    "activeTab"
+  ],
   "commands": {
-    "google.com": {
+    "current-tab": {
       "suggested_key": {
         "default": "Ctrl+Q",
         "mac": "MacCtrl+Q"
        },
-      "description": "Open google.com"
+      "description": "Open google.com in current tab"
     },
-    "google.co.jp": {
+    "new-tab": {
       "suggested_key": {
         "default": "Ctrl+Shift+Q",
         "mac": "MacCtrl+Shift+Q"
        },
-      "description": "Open google.co.jp"
+      "description": "Open google.com in new tab"
     }
   },
   "icons": {

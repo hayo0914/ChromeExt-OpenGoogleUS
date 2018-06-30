@@ -1,12 +1,9 @@
 # Chrome extenstion for opening Google US
-Every time when I want to search in US google, I open a new tab for google.com from bookmark.
-It's a little pain because I have to use the mouse or touchpad to do so.
-
-This chrome extension adds shortcuts for opening google US/JP in new tab.
+This chrome extension adds shortcuts for opening google US in new tab.
 
 ## How to use
-- Press Ctrl+Q to open google.com
-- Press Ctrl+Shift+Q to open google.co.jp
+- Press Ctrl+Q to open google.com in current tab
+- Press Ctrl+Shift+Q to open google.com in new tab
 
 ## How to install
 Please install from the following link (Chrome web store)
