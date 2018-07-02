@@ -1,7 +1,7 @@
 {
   "name": "Open Google US",
-  "description": "Press Ctrl+Q to open google.com in current tab. Press Ctrl+Shift+Q to open in new tab",
-  "version": "1.0.1",
+  "description": "Press Ctrl+I to open google.com in current tab. Press Ctrl+Shift+I to open in new tab",
+  "version": "1.0.2",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js"],
@@ -13,15 +13,15 @@
   "commands": {
     "current-tab": {
       "suggested_key": {
-        "default": "Ctrl+Q",
-        "mac": "MacCtrl+Q"
+        "default": "Ctrl+I",
+        "mac": "MacCtrl+I"
        },
       "description": "Open google.com in current tab"
     },
     "new-tab": {
       "suggested_key": {
-        "default": "Ctrl+Shift+Q",
-        "mac": "MacCtrl+Shift+Q"
+        "default": "Ctrl+Shift+I",
+        "mac": "MacCtrl+Shift+I"
        },
       "description": "Open google.com in new tab"
     }
