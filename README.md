@@ -6,7 +6,5 @@ This chrome extension adds shortcuts for opening google US in new tab.
 - Press Ctrl+Shift+I(Mac: Command+Shift+I) to open google.com in new tab
 
 ## How to install
-Please install from the following link (Chrome web store)
-
-https://chrome.google.com/webstore/detail/open-google-usjp/nenpcleijfnpodadodgdemekibcngodb
+Please install from chrome://extensions
 
